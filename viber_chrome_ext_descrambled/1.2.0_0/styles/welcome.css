@@ -1,1 +1,212 @@
-html,legend{color:#000}html{background:#FFF;height:100%}.logo a,.screen{background-size:100%}blockquote,body,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}q:after,q:before{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,select,textarea{font-family:inherit;font-size:inherit;font-weight:inherit}#yui3-css-stamp.cssreset{display:none}@font-face{font-family:'Open Sans';src:url(../fonts/OpenSans-Regular.ttf);font-weight:400}@font-face{font-family:'Open Sans';src:url(../fonts/OpenSans-Light.ttf);font-weight:lighter}body{min-height:100%;background-color:#48d6dd;padding-top:25px;min-width:1400px;color:#fff;font-size:30px;font-family:'Open Sans';font-weight:300}.body.pc{background-color:#58dde4}.wrapper{width:1300px;padding:0 50px;margin:0 auto}.logo a{width:260px;height:45px;background-image:url(../images/viber-logo@2x.png);display:block}.screen{background-repeat:no-repeat;position:relative}.download-button,.replay-button{position:absolute;text-decoration:none;display:none}.mac .screen,.pc .screen{width:783px;height:660px;background-image:url(../images/mac-screen@2x.png);margin:18px auto 0}.mac .screen video,.pc .screen video{margin:53px 0 0 26px;width:732px;background-color:transparent!important}.replay-button{background:url(../images/welcome-replay.svg) 0 8px no-repeat;background-size:15px 17px;top:384px;right:132px;font-size:23px;color:#28c3cc;padding-left:21px;font-weight:400}.download-button{top:376px;left:308px;width:170px;height:49px;font-size:18px;color:#fff;padding:13px 0 0;box-sizing:border-box;background:url(../images/welcome-download.svg) no-repeat;text-align:center}.clear{clear:both}.share-buttons{float:right;margin:0 -195px 76px 0;-webkit-transition:all .2s}.share-buttons li{float:left}.facebook-button a{background:url(../images/facebook-icon@2x.png) no-repeat;background-size:100%;width:11px;height:22px;display:block}.twitter-button a{background:url(../images/twitter-icon@2x.png) no-repeat;background-size:100%;width:25px;height:21px;margin-left:22px;display:block}.googleplus-button a{background:url(../images/googleplus-icon@2x.png) no-repeat;background-size:100%;width:32px;height:21px;margin-left:17px;display:block}h1{color:#fefefe;font-size:22px;width:100%;text-align:center;font-weight:lighter;margin-top:15px}@media (max-width:1700px){.share-buttons{margin-right:0}}(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi){background-position:0 6px}
+html,legend {
+	color: #000;
+}
+
+html {
+	background: #FFF;
+	height: 100%;
+}
+
+.logo a,.screen {
+	background-size: 100%;
+}
+
+blockquote,body,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,img {
+	border: 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: 400;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+caption,th {
+	text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: 400;
+}
+
+q:after,q:before {
+	content: '';
+}
+
+abbr,acronym {
+	border: 0;
+	font-variant: normal;
+}
+
+sup {
+	vertical-align: text-top;
+}
+
+sub {
+	vertical-align: text-bottom;
+}
+
+input,select,textarea {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+#yui3-css-stamp.cssreset {
+	display: none;
+}
+
+@font-face {
+	font-family:'Open Sans';src:url(../fonts/OpenSans-Regular.ttf);font-weight:400;
+}
+
+@font-face {
+	font-family:'Open Sans';src:url(../fonts/OpenSans-Light.ttf);font-weight:lighter;
+}
+
+body {
+	min-height: 100%;
+	background-color: #48d6dd;
+	padding-top: 25px;
+	min-width: 1400px;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+
+.body.pc {
+	background-color: #58dde4;
+}
+
+.wrapper {
+	width: 1300px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+.logo a {
+	width: 260px;
+	height: 45px;
+	background-image: url(../images/viber-logo@2x.png);
+	display: block;
+}
+
+.screen {
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.download-button,.replay-button {
+	position: absolute;
+	text-decoration: none;
+	display: none;
+}
+
+.mac .screen,.pc .screen {
+	width: 783px;
+	height: 660px;
+	background-image: url(../images/mac-screen@2x.png);
+	margin: 18px auto 0;
+}
+
+.mac .screen video,.pc .screen video {
+	margin: 53px 0 0 26px;
+	width: 732px;
+	background-color: transparent!important;
+}
+
+.replay-button {
+	background: url(../images/welcome-replay.svg) 0 8px no-repeat;
+	background-size: 15px 17px;
+	top: 384px;
+	right: 132px;
+	font-size: 23px;
+	color: #28c3cc;
+	padding-left: 21px;
+	font-weight: 400;
+}
+
+.download-button {
+	top: 376px;
+	left: 308px;
+	width: 170px;
+	height: 49px;
+	font-size: 18px;
+	color: #fff;
+	padding: 13px 0 0;
+	box-sizing: border-box;
+	background: url(../images/welcome-download.svg) no-repeat;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.share-buttons {
+	float: right;
+	margin: 0 -195px 76px 0;
+	-webkit-transition: all .2s;
+}
+
+.share-buttons li {
+	float: left;
+}
+
+.facebook-button a {
+	background: url(../images/facebook-icon@2x.png) no-repeat;
+	background-size: 100%;
+	width: 11px;
+	height: 22px;
+	display: block;
+}
+
+.twitter-button a {
+	background: url(../images/twitter-icon@2x.png) no-repeat;
+	background-size: 100%;
+	width: 25px;
+	height: 21px;
+	margin-left: 22px;
+	display: block;
+}
+
+.googleplus-button a {
+	background: url(../images/googleplus-icon@2x.png) no-repeat;
+	background-size: 100%;
+	width: 32px;
+	height: 21px;
+	margin-left: 17px;
+	display: block;
+}
+
+h1 {
+	color: #fefefe;
+	font-size: 22px;
+	width: 100%;
+	text-align: center;
+	font-weight: lighter;
+	margin-top: 15px;
+}
+
+@media (max-width:1700px) {
+	.share-buttons {
+		margin-right: 0;
+	}
+}(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+	background-position: 0 6px;
+}
