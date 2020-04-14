@@ -1,0 +1,50 @@
+{
+   "app_description": {
+      "description": "The description of the application",
+      "message": "Viber's share button allows 'Viber Desktop' users to easily share web sites, Photos and Text directly from the browser"
+   },
+   "app_name": {
+      "description": "The name of the application",
+      "message": "Viber"
+   },
+   "error_button": {
+      "description": "The download button in the error popup",
+      "message": "Download or update Viber"
+   },
+   "error_message_body": {
+      "description": "The error message",
+      "message": "An error has occured due to one of the following reasons: \u003Cbr/> 1. You don't have \u003Cu>Viber for desktop\u003C/u> on your computer. \u003Cbr/> 2. You don't have an \u003Cu>updated version\u003C/u> of Viber for desktop. \u003Cbr/> 3. You didn't approve the \u003Cu>external permission\u003C/u>. \u003Cbr/>"
+   },
+   "error_message_title": {
+      "description": "The title of the timeout error popup",
+      "message": "Oops, something went wrong..."
+   },
+   "open_viber_message_body": {
+      "description": "The description of the open viber popup",
+      "message": "To share content through the Viber chrome extension you need to make sure the latest version of Viber is up and running on your desktop."
+   },
+   "open_viber_message_button": {
+      "description": "The download button in the open viber popup",
+      "message": "Download or update Viber"
+   },
+   "open_viber_message_title": {
+      "description": "The title of the open viber popup",
+      "message": "Is Viber open on your desktop?"
+   },
+   "options_hide_image_button": {
+      "description": "The caption for the option to hide the hovering button for images",
+      "message": "Hide hovering Share button on images"
+   },
+   "options_hide_text_button": {
+      "description": "The caption for the option to hide the hovering button for selected text",
+      "message": "Hide hovering Share button on selection of text"
+   },
+   "options_title": {
+      "description": "The title of the options page",
+      "message": "Viber Share Buttons"
+   },
+   "share_context": {
+      "description": "The text of the context menu item",
+      "message": "Share with Viber"
+   }
+}
