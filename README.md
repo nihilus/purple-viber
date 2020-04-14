@@ -1,2 +1,2 @@
 # purple-viber
-Ipsum lorem
+Seems like the magic URL is https://chats.viber.com/
